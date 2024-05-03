@@ -1,6 +1,7 @@
 #!/bin/sh
 
-sudo apt update -y
-sudo bash extractThemesAndIcons.sh
+bash extractThemesAndIcons.sh
 bash configureThemesAndIcons.sh
 bash setupOhMyZsh.sh
+bash installTerminator.sh
+bash configureTerminator.sh
