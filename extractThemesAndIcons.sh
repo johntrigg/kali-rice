@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/zsh
 
 cp -r linux-rice /tmp
 tar -xvf /tmp/linux-rice/themes/Sweet-Dark-v40.tar.xz
