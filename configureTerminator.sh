@@ -5,7 +5,7 @@ DIRECTORY="$HOME/.config/terminator"
 
 # Check if the directory exists
 if [ -d "$DIRECTORY" ]; then
-    # Do nothing
+    :
 else
     mkdir ~/.config/terminator
 fi
